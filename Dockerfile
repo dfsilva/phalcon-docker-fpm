@@ -21,7 +21,8 @@ RUN apk add --no-cache --virtual .build-deps \
 # packages
 RUN apk add --no-cache \
     git \
-    unzip
+    unzip \
+    tzdata
 
 # devtools
 ENV DEVTOOLS_VERSION=3.4.0
